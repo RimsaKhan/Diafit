@@ -1,31 +1,39 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Activity, Droplets, Youtube, Apple, User, Info, Menu, X } from 'lucide-react';
+// Import the logo directly
+import logoImage from '../assests/logo2.png';
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
   const isActive = (path: string) => location.pathname === path;
-
+  
   const navItems = [
     { path: '/dashboard', name: 'Dashboard', icon: Activity },
-     { path: '/profile', name: 'Profile', icon: User },
+    { path: '/profile', name: 'Profile', icon: User },
     { path: '/diet-planner', name: 'Diet Planner', icon: Apple },
     { path: '/exercise-videos', name: 'Exercise Videos', icon: Youtube },
     { path: '/water-tracker', name: 'Water Tracker', icon: Droplets },
     { path: '/about-us', name: 'About Us', icon: Info },
   ];
-
+  
   return (
     <header className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <Activity className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-2xl font-bold text-blue-600">DiaFit</span>
+              {/* Use the imported logo */}
+              <img 
+  src={logoImage} 
+  alt="DiaFit Logo" 
+  style={{ height: '40px' }} 
+  className="w-auto pl-5" 
+/><span className="text-2xl font-bold text-blue-600">DiaFit</span>
             </Link>
           </div>
-
+          
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navItems.map((item) => {
@@ -46,7 +54,7 @@ const Header = () => {
               );
             })}
           </nav>
-
+          
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
             <button
@@ -62,7 +70,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-
+      
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden">

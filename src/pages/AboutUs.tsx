@@ -6,19 +6,19 @@ const AboutUs = () => {
     {
       name: "Rimsha",
       role: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
+      image: "https://media.istockphoto.com/id/1496613385/photo/smiling-confident-latin-woman-looking-at-camera.jpg?s=612x612&w=0&k=20&c=rDn837m8OMd_uN8_hduEScGzARZznKFWfn45kQJ2j7A=",
       description: "Leading the vision for better diabetes management"
     },
     {
       name: "Syed",
       role: "Chief Medical Officer",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80",
+      image: "https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=",
       description: "Ensuring medical accuracy and best practices"
     },
     {
       name: "Isha",
       role: "Head of Product",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80",
+      image: "https://media.istockphoto.com/id/1289220545/photo/beautiful-woman-smiling-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=qmOTkGstKj1qN0zPVWj-n28oRA6_BHQN8uVLIXg0TF8=",
       description: "Designing intuitive diabetes management solutions"
     }
   ];

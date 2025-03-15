@@ -221,9 +221,9 @@ const DietPlanner: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       {/* App Background Image (Header) */}
       <div 
-        className="h-60 w-full bg-cover bg-center relative" 
+        className="h-80 w-full bg-cover bg-center relative" 
         style={{ 
-          backgroundImage: "url('https://img.freepik.com/free-photo/flat-lay-vegetarian-food_23-2147866414.jpg?t=st=1741640257~exp=1741643857~hmac=077f9c03823aeb962664d7176e3b6585ffcc9dd8d2dd508765a410ad531ccbac&w=1800')" 
+          backgroundImage: "url('https://img.freepik.com/free-photo/be-my-valentine-lovely-gorgeous-redhead-curly-silly-girlfriend-holding-large-heart-sign-smiling_1258-127704.jpg?t=st=1742000024~exp=1742003624~hmac=36f4ccf6ea21f1cdb9b5f74e21d919ef60bc4228ff985d2ae3b32a28d12196bd&w=1380')" 
           // Replace with: url('https://images.unsplash.com/photo-1498837167922-ddd27525d352')
         }}
       >

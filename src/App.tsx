@@ -11,6 +11,8 @@ import Dashboard from './pages/Dashboard';
 import WaterTracker from './pages/WaterTracker';
 import ExerciseVideos from './pages/ExerciseVideos';
 
+import MedicalInformation from './pages/MedicalInformation';
+import AiAssistant from './pages/AiAssistant';
 import AboutUs from './pages/AboutUs';
 
 function App() {
@@ -28,7 +30,8 @@ function App() {
           <Route path="/water-tracker" element={<WaterTracker />} />
           <Route path="/exercise-videos" element={<ExerciseVideos />} />
           <Route path="/about-us" element={<AboutUs />} />
-          
+          <Route path="/medicalInformation" element={<MedicalInformation />} />
+          <Route path="/Ai-Assistant" element={< AiAssistant/>} />
         </Routes>
       </main>
       <Footer />
